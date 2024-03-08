@@ -45,6 +45,7 @@ $("#tixcraft_save").on("click",()=>{
   chrome.storage.local.set({
     "tixcraft_quick":$("#tixcraft_quick").prop("checked"),
     "tixcraft_date":$("#tixcraft_date").val(),
+    "tixcraft_date_index":$("#tixcraft_date_index").val(),
     "tixcraft_time":$("#tixcraft_time").val(),
     "tixcraft_auto":$("input[name=tixcraft_getquick]:checked").val(),
     "tixcraft_area":$("#tixcraft_area").val(),

@@ -90,6 +90,18 @@
       "css" :[
         "css/content.css"
       ]
+    },
+    {
+      "matches": [
+        "https://ticket.ibon.com.tw/ActivityInfo/Details/*",
+        "https://orders.ibon.com.tw/application/UTK02/*.aspx?PERFORMANCE_ID=*"
+      ],
+      "js": [
+        "js/jquery.min.js","js/getticket_ibon.js"
+      ],
+      "css" :[
+        "css/content.css"
+      ]
     }
 
   ]
