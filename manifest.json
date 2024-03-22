@@ -87,6 +87,7 @@
       "js": [
         "js/jquery.min.js","js/getticket_kktix.js"
       ],
+      "run_at": "document_idle",
       "css" :[
         "css/content.css"
       ]
@@ -99,6 +100,7 @@
       "js": [
         "js/jquery.min.js","js/getticket_ibon.js"
       ],
+      "run_at": "document_idle",
       "css" :[
         "css/content.css"
       ]
